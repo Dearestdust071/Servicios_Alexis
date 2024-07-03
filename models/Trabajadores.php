@@ -4,6 +4,7 @@ class Trabajadores extends Conectar
     // Obtener todos los trabajadores con JOIN para incluir nombres de áreas y bancos
     public function get_trabajadores()
     {
+
         try {
             $db = parent::conexion();
             parent::set_names();

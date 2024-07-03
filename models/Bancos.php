@@ -1,5 +1,5 @@
 <?php
-class Banco extends Conectar
+class Bancos extends Conectar
 {
     public function get_bancos()
     {

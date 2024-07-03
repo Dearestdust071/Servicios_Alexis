@@ -1,8 +1,8 @@
 <?php
 require_once("../config/conexion.php");
-require_once("../models/Banco.php");
+require_once("../models/Bancos.php");
 
-$bancoS = new BancoS();
+$banco = new Bancos();
 
 $body = json_decode(file_get_contents("php://input"), true);
 
